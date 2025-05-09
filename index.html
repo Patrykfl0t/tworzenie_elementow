@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tworzenie elementów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Tworzenie elementów</h1>
+
+        <div class="form-row">
+            <label for="imie">Imię:</label>
+            <input type="text" id="imie">
+        </div>
+        <div class="form-row">
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" id="nazwisko">
+        </div>
+        <div class="form-row">
+            <label for="pelnoletni">Pełnoletność:</label>
+            <input type="checkbox" id="pelnoletni">
+        </div>
+        <div class="form-row">
+            <label for="kolor">Kolor:</label>
+            <input type="color" id="kolor" value="#cc0000">
+        </div>
+
+        <div class="buttons">
+            <button onclick="dodaj()">Dodaj</button>
+            <button onclick="wyczysc()">Czyść</button>
+        </div>
+
+        <div id="lista"></div>
+
+        <footer>
+            &copy; Me XXI c.
+        </footer>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
